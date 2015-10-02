@@ -1,11 +1,12 @@
 Package.describe({
-  summary: "Inline CSS into HTML via the NPM 'juice' package",
-  version: '0.1.3',
-  name: "oleh:npm-juice"
+  summary: "Inline CSS into HTML via the NPM 'juice' package in Meteor",
+  version: '0.1.4',
+  name: 'oleh:npm-juice',
+  git: 'https://github.com/OlehHappy/npm-juice.git'
 });
 
 Npm.depends({
-  juice: "1.0.0", 
+  juice: "1.5.0",
 });
 
 Package.onUse(function (api) {
