@@ -1,7 +1,8 @@
 Package.describe({
   summary: "Inline CSS into HTML via the NPM 'juice' package in Meteor",
   version: '0.1.4',
-  name: 'oleh:npm-juice',
+  name: 'happycoder888:npm-juice',
+  documentation: 'README.md',
   git: 'https://github.com/OlehHappy/npm-juice.git'
 });
 
